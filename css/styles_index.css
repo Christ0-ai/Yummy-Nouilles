@@ -1,0 +1,198 @@
+/* IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* IMPORT */
+
+/******************** GENERAL *******************/
+
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.cta {
+  font-size: 72px;
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1245px;
+  margin: auto;
+}
+
+/******************** GENERAL *******************/
+
+/******************** HEADER *******************/
+
+header {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 71px;
+  margin-top: 32px;
+}
+
+.navbar nav {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 310px;
+}
+
+.navbar ul li:first-child a,
+h2 {
+  text-decoration: underline #d2483d 4px;
+}
+
+.navbar ul a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.presentation {
+  width: 915px;
+  height: 350px;
+  display: flex;
+  margin: 100px auto 0;
+  justify-content: space-between;
+}
+
+.presentation h1 {
+  font-size: 72px;
+}
+
+.presentation #orange {
+  color: #d2483d;
+}
+
+.cta {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 27px 56px;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.texte p,
+#cta p,
+#savoir_faire p,
+#contact p {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+}
+/******************** HEADER *******************/
+
+/******************** SECTION ADRESSES *******************/
+
+.container_adresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container_adresses div {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+/******************** SECTION ADRESSES *******************/
+
+/******************** SECTION CTA *******************/
+#cta {
+  height: 291px;
+  margin-top: 200px;
+  background-color: #d2483d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/******************** SECTION CTA *******************/
+
+/******************** SECTION NOTRE SAVOIR FAIRE *******************/
+
+#savoir_faire {
+  text-align: center;
+}
+
+#savoir_faire h2 {
+  margin-top: 143px;
+}
+
+/******************** SECTION NOTRE SAVOIR FAIRE *******************/
+
+/******************** SECTION RESEAUX SOCIAUX *******************/
+
+#reseaux_sociaux {
+  margin-top: 223px;
+}
+
+.container_image {
+  justify-content: space-evenly;
+  width: 920px;
+  margin: 50px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_image img {
+  margin-bottom: 50px;
+}
+/******************** SECTION RESEAUX SOCIAUX *******************/
+
+/******************** SECTION CONTACT *******************/
+
+#contact {
+  margin-top: 121px;
+  text-align: center;
+}
+
+/******************** SECTION CONTACT *******************/
+
+/******************** FOOTER *******************/
+footer {
+  margin-top: 71px;
+  height: 150px;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab {
+  padding: 0 20px;
+  color: white;
+}
+/******************** FOOTER *******************/

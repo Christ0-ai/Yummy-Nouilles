@@ -1,0 +1,182 @@
+/* IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* IMPORT */
+
+/******************** GENERAL *******************/
+
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.cta {
+  margin: 0;
+  font-size: 72px;
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1245px;
+  margin: auto;
+}
+
+/******************** GENERAL *******************/
+
+/******************** HEADER *******************/
+
+header {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/******************** BARRE DE NAVIGATION *******************/
+
+.navbar {
+  display: flex;
+  margin-left: 71px;
+  margin-top: 32px;
+}
+
+.navbar nav {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 310px;
+}
+
+.navbar ul li:nth-child(2) a,
+h2 {
+  text-decoration: underline #d2483d 4px;
+}
+
+.navbar ul a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/******************** BARRE DE NAVIGATION *******************/
+
+.cta {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 27px 56px;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+/******************** SECTION CTA *******************/
+#cta {
+  height: 291px;
+  margin-top: 40px;
+  background-color: #d2483d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/******************** SECTION CTA *******************/
+
+.texte p,
+#cta p,
+#menu p,
+#contact p {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+}
+
+strong {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+/******************** HEADER *******************/
+
+/******************** SECTION MENU *******************/
+
+#menu h1 {
+  position: absolute;
+  left: 243px;
+  top: 557px;
+}
+
+#orange {
+  color: #d2483d;
+}
+
+#menu > p {
+  position: absolute;
+  left: 241px;
+  top: 667px;
+}
+
+#carte {
+  background-color: #fff;
+  padding: 70px 0;
+  width: 916px;
+  margin: 57px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************** SECTION MENU *******************/
+
+/******************** SECTION CONTACT *******************/
+
+#contact {
+  margin-top: 121px;
+  text-align: center;
+}
+
+#contact strong {
+  font-size: inherit;
+}
+/******************** SECTION CONTACT *******************/
+
+/******************** FOOTER *******************/
+footer {
+  margin-top: 71px;
+  height: 150px;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab {
+  padding: 0 20px;
+  color: white;
+}
+/******************** FOOTER *******************/
